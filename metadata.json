@@ -1,0 +1,6 @@
+{
+  "name": "클래스툴 (ClassTool) - 수업용 교실 유틸리티",
+  "description": "수업 중 편리하게 사용하는 자리뽑기, 번호뽑기, 모둠편성, 수업타이머 등 교실 필수 유틸리티 모음",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
