@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['main'] # 사용 중인 기본 브랜치 (main 또는 master)
+    branches: ['main', 'master']
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -26,9 +27,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
       - name: Install dependencies
-        run: npm ci
+        run: npm install
       - name: Build
         run: npm run build
       - name: Setup Pages
