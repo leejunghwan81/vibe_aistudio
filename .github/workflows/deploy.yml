@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['main']
+    branches: ['main'] # 사용 중인 기본 브랜치 (main 또는 master)
 
 permissions:
   contents: read
